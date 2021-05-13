@@ -1,3 +1,12 @@
+.intro{
+padding: 10px 20%;
+background-color: #5c3a0c;
+}
+
+.posts
+{
+  margin: 20px 25%;
+}
 .showcase {
   background-image: url("../img/cover_bg.jpg");
 background-size: cover;
@@ -5,7 +14,7 @@ background-position: center;
   height: 92.1vh;
       }
       
-}
+
 
 * {
     box-sizing: border-box;
@@ -102,5 +111,12 @@ background-position: center;
     .nav > #nav-check:checked ~ .nav-links {
       height: calc(100vh - 50px);
       overflow-y: auto;
+    }
+    .intro{
+      padding: 20px;
+    }
+
+    p{
+      padding: 20;
     }
   }
