@@ -1,11 +1,10 @@
-.banner img{
-    
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        height: 92.1vh;
+.showcase {
+  background-image: url("../img/cover_bg.jpg");
+background-size: cover;
+background-position: center;
+  height: 92.1vh;
       }
+      
 }
 
 * {
@@ -20,7 +19,7 @@
   .nav {
     height: 50px;
     width: 100%;
-    background-color: #4d4d4d;
+    background-color: #5c3a0c;
     position: relative;
   }
   
