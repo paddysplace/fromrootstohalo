@@ -1,13 +1,25 @@
-.intro{
+html{
+  scroll-behavior: smooth;
+}
+
+#section1{
 padding: 10px 20%;
 background-color: #5c3a0c;
+height: 100vh;
+
 }
+
+#section2{
+  padding: 10px 20%;
+  background-color: #a07538;
+  height: 100vh;
+  }
 
 .posts
 {
   margin: 20px 25%;
 }
-.showcase {
+#showcase {
   background-image: url("../img/cover_bg-01.jpeg");
 background-size: cover;
 background-position: center;
@@ -112,7 +124,7 @@ background-position: center;
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-    .intro{
+    #section1 .section2{
       padding: 20px;
     }
 
@@ -120,3 +132,9 @@ background-position: center;
       padding: 20;
     }
   }
+  .credits{
+    background-color: #5c3a0c;
+    font-size: smaller;
+  }
+
+  
