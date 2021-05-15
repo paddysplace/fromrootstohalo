@@ -1,5 +1,99 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+  color: white;
+  
+
+}
+a:link {
+  text-decoration: none;
+}
 html{
   scroll-behavior: smooth;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#link-nav{
+  display: flex;
+  justify-content: center;
+}
+
+#link-nav li{
+padding: 20px;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: fit-auto;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width:fit-content;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width:100%;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+
+
+
+button {
+  background-color: #5c3a0c; 
+  display: block;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 #section1{
@@ -9,7 +103,7 @@ height: 100vh;
 
 }
 
-#section2{
+#contactMe{
   padding: 10px 20%;
   background-color: #a07538;
   height: 100vh;
@@ -44,6 +138,9 @@ background-position: center;
     position: relative;
   }
   
+  .nav{
+    position: sticky;
+  }
   .nav > .nav-header {
     display: inline;
   }
@@ -124,12 +221,15 @@ background-position: center;
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-    #section1 .section2{
+
+    
+    #section1 .contactMe{
       padding: 20px;
     }
 
     p{
       padding: 20;
+      font-family: Arial, Helvetica, sans-serif;
     }
   }
   .credits{
