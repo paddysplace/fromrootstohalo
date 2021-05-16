@@ -85,7 +85,7 @@ textarea {
 
 
 button {
-  background-color: #5c3a0c; 
+  background-color: #323232; 
   display: block;
   border: none;
   border-radius: 8px;
@@ -96,18 +96,28 @@ button {
   display: inline-block;
 }
 
-#section1{
-padding: 10px 20%;
-background-color: #5c3a0c;
-height: 100vh;
 
+
+#aboutMe{
+  color: white;
+  padding: 10px 20%;
+  background-color: #323232;
+  height: 100vh;
 }
+  
 
 #contactMe{
+  
   padding: 10px 20%;
-  background-color: #a07538;
-  height: 100vh;
+  color: white;
+background-image: url("../img/wp2741750-astrology-wallpaper_edited.jpeg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+
   }
+
+
 
 .posts
 {
@@ -134,7 +144,7 @@ background-position: center;
   .nav {
     height: 50px;
     width: 100%;
-    background-color: #5c3a0c;
+    background-color: #323232;
     position: relative;
   }
   
@@ -223,7 +233,7 @@ background-position: center;
     }
 
     
-    #section1 .contactMe{
+    #aboutMe .contactMe{
       padding: 20px;
     }
 
@@ -233,8 +243,9 @@ background-position: center;
     }
   }
   .credits{
-    background-color: #5c3a0c;
+    background-color: #323232;
     font-size: smaller;
   }
+
 
   
