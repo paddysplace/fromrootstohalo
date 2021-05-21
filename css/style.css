@@ -140,7 +140,10 @@ height: 100vh;
   }
 
 
-
+.taggbox-container{
+  display: flex;
+  padding: 10px 20%;
+}
 .posts
 {
   margin: 20px 25%;
@@ -149,7 +152,7 @@ height: 100vh;
   background-image: url("../img/cover_bg-01.jpeg");
 background-size: cover;
 background-position: center;
-  height: 92.1vh;
+  height: 100vh;
       }
       
 
@@ -269,5 +272,11 @@ background-position: center;
     font-size: smaller;
   }
 
-
+  .nav, .nav-links{
+    position: fixed;
+    top: 0;
+  }
   
+  #abouMe, #contactMe{
+    padding-top: 30px;
+  }
