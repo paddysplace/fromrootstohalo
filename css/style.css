@@ -22,6 +22,8 @@ h1{
   font-size: 3em;
 }
 
+/* Navigation Menu */
+
 #link-nav{
   display: flex;
   justify-content: center;
@@ -30,8 +32,6 @@ h1{
 #link-nav li{
 padding: 20px;
 }
-
-
 
 .link-nav-dark{
   display: flex;
@@ -47,6 +47,8 @@ padding: 20px;
   color: #000;
 
   }
+
+  /* Comtact Form */
 
 form {
   /* Center the form on the page */
@@ -103,9 +105,6 @@ textarea {
   height: 5em;
 }
 
-
-
-
 button {
   background-color: #323232; 
   display: block;
@@ -119,6 +118,7 @@ button {
 }
 
 
+/* Site Sections */
 
 #aboutMe{
   color: white;
@@ -127,33 +127,33 @@ button {
   height: 100vh;
 }
   
-
 #contactMe{
-  
   padding: 10px 20%;
   color: white;
-background-image: url("../img/wp2741750-astrology-wallpaper_edited.jpeg");
-background-size: cover;
-background-position: center;
-height: 100vh;
+  background-image: url("../img/wp2741750-astrology-wallpaper_edited.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 
-  }
-
+/* blog */
 
 .taggbox-container{
   display: flex;
   padding: 10px 20%;
 }
+
 .posts
 {
   margin: 20px 25%;
 }
+
 #showcase {
   background-image: url("../img/cover_bg-01.jpeg");
-background-size: cover;
-background-position: center;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
-      }
+}
       
 
 
