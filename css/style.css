@@ -3,18 +3,23 @@
 
 }
 
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  }
+
 a {
   color: white;
-  
-
 }
+
 a:link {
   text-decoration: none;
 }
+
 html{
   scroll-behavior: smooth;
         font-family: Arial, Helvetica, sans-serif;
-
 }
 
 h1{
@@ -22,130 +27,22 @@ h1{
   font-size: 3em;
 }
 
-/* Navigation Menu */
-
-#link-nav{
-  display: flex;
-  justify-content: center;
-}
-
-#link-nav li{
-padding: 20px;
-}
-
-.link-nav-dark{
-  display: flex;
-  justify-content: center;
-}
-
-.link-nav-dark li{
-padding: 20px;
-}
-
-.link-nav-dark a{
-  padding: 0px 20px;
-  color: #000;
-
-  }
-
-  /* Comtact Form */
-
-form {
-  /* Center the form on the page */
-  margin: 0 auto;
-  width: fit-auto;
-  /* Form outline */
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form li + li {
-  margin-top: 1em;
-}
-
-label {
-  /* Uniform size & alignment */
-  display: inline-block;
-  width:fit-content;
-  text-align: right;
-}
-
-input,
-textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
-  font: 1em sans-serif;
-
-  /* Uniform text field size */
-  width:100%;
-  box-sizing: border-box;
-
-  /* Match form field borders */
-  border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-  /* Additional highlight for focused elements */
-  border-color: #000;
-}
-
-textarea {
-  /* Align multiline text fields with their labels */
-  vertical-align: top;
-
-  /* Provide space to type some text */
-  height: 5em;
-}
-
-button {
-  background-color: #323232; 
-  display: block;
-  border: none;
-  border-radius: 8px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-
 /* Site Sections */
 
 #aboutMe{
   color: white;
-  padding: 10px 20%;
+  padding: 20px 20%;
   background-color: #323232;
   height: 100vh;
 }
   
 #contactMe{
-  padding: 10px 20%;
+  padding: 20px 20%;
   color: white;
   background-image: url("../img/wp2741750-astrology-wallpaper_edited.jpeg");
   background-size: cover;
   background-position: center;
   height: 100vh;
-}
-
-/* blog */
-
-.taggbox-container{
-  display: flex;
-  padding: 10px 20%;
-}
-
-.posts
-{
-  margin: 20px 25%;
 }
 
 #showcase {
@@ -154,43 +51,19 @@ button {
   background-position: center;
   height: 100vh;
 }
-      
 
-
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0px;
-    font-family: 'segoe ui';
-  }
-  
   .nav {
     height: 50px;
     width: 100%;
     background-color: #323232;
+    opacity: 75%;
     position: relative;
   }
   
   .nav{
     position: sticky;
   }
-  .nav > .nav-header {
-    display: inline;
-  }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 22px;
-    color: #fff;
-    padding: 10px 10px 10px 10px;
-  }
-  
-  .nav > .nav-btn {
-    display: none;
-  }
-  
+    
   .nav > .nav-links {
     display: inline;
     float: right;
@@ -212,61 +85,6 @@ button {
     display: none;
   }
   
-  @media (max-width:600px) {
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #333;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-    }
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
-
-    
-    #aboutMe .contactMe{
-      padding: 20px;
-    }
-
-    p{
-      padding: 20;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-  }
   .credits{
     background-color: #323232;
     font-size: smaller;
@@ -277,6 +95,19 @@ button {
     top: 0;
   }
   
-  #abouMe, #contactMe{
-    padding-top: 30px;
+  #aboutMe, #contactMe{
+    padding-top: 40px;
   }
+
+  /*form*/
+  input, input[type="text"], input[type="search"], isindex, textarea, button {
+   display: flex;
+    outline:none;
+    margin:0 auto;
+    padding:5px 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+      box-sizing: border-box;         /* Opera/IE 8+ */
+  }
+
+  
