@@ -6,7 +6,7 @@
 html,body {
   margin:0;
   padding:0;
-  overflow-x:hidden;
+  <!--overflow-x:hidden;-->
   }
 
 a {
@@ -37,16 +37,7 @@ h1{
   background-color: #323232;
   height: 100vh;
 }
-  
-#contactMe{
-  padding: 20px 20%;
-  background-color: #303030;
- /* background-image: url("../img/wp2741750-astrology-wallpaper_edited.jpeg");
-  background-size: cover;
-  background-position: center;*/
-  height: 100vh;
-}
-
+ 
 ul{
   font-size: 2rem;
   margin: 10px 10px;
@@ -95,30 +86,16 @@ ul{
     display: none;
   }
   
-  .credits{
-    background-color: #323232;
-    font-size: smaller;
-  }
+
 
   .nav, .nav-links{
     position: fixed;
     top: 0;
   }
   
-  #aboutMe, #contactMe{
-    padding-top: 40px;
-  }
+ 
 
-  /*form*/
-  input, input[type="text"], input[type="search"], isindex, textarea, button {
-   display: flex;
-    outline:none;
-    margin:0 auto;
-    padding:5px 10px;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-      box-sizing: border-box;         /* Opera/IE 8+ */
-  }
+
 
   a:hover {
     border-bottom: 1px solid;
