@@ -37,20 +37,19 @@ h1{
   background-color: #323232;
   height: 100vh;
 }
- 
-ul{
-  font-size: 2rem;
-  margin: 10px 10px;
-  padding: 0%;
-  list-style: none;
-}
-
 
 #showcase {
   background-image: url("../img/pexels-jeremy-bishop-2422916-01.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+ul{
+  font-size: 2rem;
+  margin: 10px 10px;
+  padding: 0%;
+  list-style: none;
 }
 
   .nav {
@@ -61,7 +60,9 @@ ul{
     position: relative;
   }
 
-  
+  .nav{
+    position: sticky;
+  }  
     
   .nav > .nav-links {
     display: inline;
@@ -91,9 +92,6 @@ ul{
     top: 0;
   }
   
- 
-
-
 
   a:hover {
     border-bottom: 1px solid;
